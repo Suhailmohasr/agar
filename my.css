@@ -1,0 +1,63 @@
+.container .card .navbar .navbar-brand {
+    color: #9f07e6;
+    font-weight: 600;
+}
+
+
+.container .card .navbar .container-fluid .forms .btn.btn-primary {
+
+    text-transform: capitalize;
+    width: 100;
+    background-color: transparent;
+    color: #9f07e6;
+    font-weight: 600;
+    border: 2px solid #9f07e6;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 20px;
+    transition: .5s;
+}
+
+.container .card .navbar .container-fluid form  .btn.btn-primary:hover {
+    background-color: #9f07e6;
+    color: #fff;
+}
+
+.container .container-fluid ul li.nav-item .nav-link {
+    color: black;
+    font-size: 1rem;
+    border-bottom: 2px solid transparent;
+    padding: .5rem ;
+    margin: 0 .8rem;
+}
+
+.container .container-fluid ul li.nav-item .nav-link:hover {
+    border-bottom: 2px solid #9f07e6;
+    /* padding: 0px; */
+}
+
+.container .container-fluid ul li.nav-item .nav-link.active {
+    border-bottom: 2px solid #9f07e6;
+
+}
+
+
+
+
+
+
+
+  .dropdown-menu {
+        display: none;
+      }
+  
+      /* إظهار القائمة عند التمرير فقط فوق الزر */
+      .dropdown:hover .dropdown-menu {
+        display: block;
+      }
+      
+      /* إذا كانت القائمة مرئية، تأكد من أنها لا تظهر عند التمرير بالقرب من الزر */
+      .dropdown:hover .dropdown-toggle {
+        pointer-events: none;
+      }
